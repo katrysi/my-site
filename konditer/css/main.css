@@ -1,0 +1,474 @@
+.html{
+	box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before{
+	box-sizing: inherit;
+}
+a{
+	text-decoration: none;
+}
+.container{
+
+	max-width: 1220px;
+    padding: 0px 10px;
+	margin: 0 auto;
+}
+body{
+	color: #000;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 134.5%;
+	padding: 0;
+	margin: 0;
+	background: #D2C3C3;
+}
+div, p, input, button, form, span, a, ul, li {
+	box-sizing: border-box;
+}
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+}
+.button {
+	display: block;
+	border: none;
+	background: transparent;
+}
+/*======================================================================*/
+
+.header{
+	height: 684px;
+    background: url('../img/heder/fon.png')  no-repeat center;
+}
+.header__inner-logo{
+	width: 210px;
+}
+.header__inner{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 100px;
+	margin: 0;
+}
+.menu{
+	display: flex;
+	text-align: center;
+}
+.menu__list-link{
+    text-transform: uppercase;
+    color: #332626;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 131%;
+    padding-bottom: 5px;
+    transition: all 5s;
+    text-decoration: none;
+    margin: 0 15px;
+    border-bottom: 1px solid transparent;
+}
+.menu__list-link:hover{
+    border-bottom: 1px solid #332626
+}
+.menu__telefon{
+	position: relative;
+	left: 100px;
+}
+.phone{
+	color: #000000;
+	font-size: 14px;
+	font-weight: 500;
+    line-height: 134.5%;
+    padding-right: 160px;
+}
+/*---------------------------------------*/
+.top__content{
+	
+	width: 465px;
+    height: 346px;
+}
+.top__heading{
+	display: flex;
+}
+.top__title{
+	color: #FFAB59;
+	font-family: Pattaya;
+	font-size: 16px;
+	max-width: 160px;
+	margin-bottom: 30px;
+    padding-top: 30px;
+    padding-left: 50px;
+}
+.top__title_h1{
+	color: rgba(58, 51, 44, 0.88);
+	font-family: Lobster;
+	font-size: 48px;
+    line-height: 134.5%;
+    margin: 0 auto 30px;
+    text-align: center;
+    min-width: 463px;
+}
+.top__text{
+    color: #A09797;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 134.5%;
+    margin: 0 auto 60px;
+    text-align: center;
+    max-width: 456px;
+    
+}
+        /* контент*/
+/*---------------------------------------
+*/.applicatin-btn{
+    color: #EB9139;       /*кнопка*/
+    font-size: 14px;
+    padding: 14px 85px;
+    background: #196617; 
+    border-radius: 100px;
+    transition: all 3s;
+    border: 1px solid transparent;
+    margin-left: 90px;
+
+}
+.applicatin-btn:hover{    /* кнопка*/
+	color: #FFAB59;
+	background: #0B9409;
+	border: 1px solid #c5ac2d;
+}
+/*----------------------------------------
+*/
+.top__seti{
+   display: flex;
+}
+.top__seti-img{
+	width: 104px;
+    position: relative;
+    top: 80px;
+    padding-left: 15px;
+}
+.top__img{
+	display: flex;
+    justify-content: center;
+    align-items: center;
+	position: absolute;
+	left: 729px;
+    top: 120px;
+}
+/*--------------------------------------------------*/
+
+.skilla {
+	color: #330C0C;
+    margin-top: 70px;
+	font-weight: 600;
+	font-size: 24px;
+	text-align: center;
+	margin-bottom: 70px;
+}
+.skills {
+    display: flex;
+	justify-content: space-between;
+}
+.top__skill-img{
+	width: 128px;
+    height: 128px;
+    left: 978px;
+    top: 70px;
+    margin-bottom: 30px;
+}
+.top__skill{
+	margin-top: 30px;
+    width: 300px;
+	text-align: center;
+	cursor: pointer;
+	transition: all .5s;
+}
+.top__skill:hover{
+	transform: scale(1.1);
+}
+.skill-title{
+	color: #330C0C;
+	font-weight: bold;
+    font-size: 20px;
+    line-height: 134.5%;
+}
+.skill-text{
+	color: #000;
+	font-weight: 500;
+    font-size: 16px;
+    line-height: 134.5%;
+    margin-bottom: 30px;
+} 
+       /*почему мы*/
+/*------------------------------------------------*/
+.heading__top{
+   display: flex;
+   padding-top: 70px;
+   
+}
+.section-title{
+	width: 50%;
+}
+.section-title__label{
+   color: #330C0C;
+   width: 450px;
+   margin-top: 70px;
+   margin-bottom: 30px;
+   padding-left: 125px;
+   font-weight: 600;
+   font-size: 24px;
+}
+.section-title__heading{
+	color: #000000;
+    width: 495px;
+    font-size: 16px;
+    font-weight: 500;
+    padding-left: 100px;
+    line-height: 134.5%;
+}
+.top__hiro{
+	width: 50%;
+	padding-left: 95px;
+	padding-top: 95px;
+}
+     /* автор*/
+/*----------------------------------------*/
+.kyrs__title-h2{
+	color: #330C0C;
+	font-weight: 600;
+    font-size: 24px;
+    line-height: 134.5%;
+    text-align: center;
+    padding-top: 70px;
+    margin-bottom: 30px;
+}
+.kyrs__title-h3{
+	color: #330C0C;
+	font-weight: 500;
+    font-size: 20px;
+    line-height: 134.5%;
+    padding-left: 100px;
+    margin-bottom: 30px;
+}
+.kyrs__foto{
+	display: flex;
+	margin-left: 100px;
+}
+
+.fto__top-img{
+	padding-left: 30px;
+	margin-bottom: 30px;
+}
+.alert{
+	color: #330C0C;
+	font-weight: 600;
+    font-size: 16px;
+    line-height: 134.5%;
+    text-align: center;
+    width: 311.42px;
+    padding-left: 50px;
+}
+.alert__top{
+	color: #000000;
+	font-size: 15px;
+    line-height: 134.5%;
+    text-align: center;
+    width: 304.96px;
+    padding-left: 50px;
+    margin-bottom: 70px;
+}
+      /*наши курсы*/
+/*----------------------------------*/
+.noney__heading{
+	width: 994px;
+    height: 523px;
+    margin-bottom: 70px;
+
+}
+.noney__title-label{
+	color: #330C0C;
+	font-weight: 600;
+    font-size: 24px;
+    line-height: 134.5%;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.blok__form{
+	margin-left: 70px;
+    margin-top: 40px;
+    width: 443.72px;
+    height: 60px;               /*input*/
+}
+.authors{                               /*h3*/
+   color: #330C0C;
+   font-weight: 600;
+   font-size: 20px;
+   line-height: 150%;
+   width: 443.72px;
+   text-align: center;
+   margin-bottom: 30px;
+}
+.authors__noney{
+    width: 394.41px;                        /*h2*/
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 135%;
+    padding-left: 50px;
+}
+.authors__noney-list{ 
+    width: 394.41px;                   /*ul*/
+   padding-left: 50px;
+   margin-bottom: 50px;
+}
+.noney-list{                            /* li*/
+   font-weight: 500;
+}
+
+.noney-input{ 
+    font-size: 10px;
+    width: 272.74px;
+    height: 36px; 
+    margin-bottom: 40px;
+    border: 1px solid #bbbbbb;
+	padding-left: 10px;
+	margin-left: 55px;
+}	                              
+.noney__btn{
+   margin-bottom: 70px;
+}
+.noney__btn-nan{
+    color: #EB9139;      /*кнопка*/
+    font-size: 14px;
+    padding: 14px 85px;
+    background: #196617; 
+    border-radius: 100px;
+    transition: all 3s;
+    border: 1px solid transparent;
+    margin-left: 70px;
+    
+}
+.noney__btn-nan:hover{    /* кнопка*/
+	color: #EB9139;
+	background: #0B9409;
+	border: 1px solid #c5ac2d;
+}
+.top__tort-img{
+	position: absolute;
+	width: 505.08px;
+    height: 461px;
+    left: 720px;
+    top: 2600px;
+    margin-bottom: 70px;
+}
+                   /*бесплатный курс
+*//*--------------------------------------------*/
+
+.students{
+	color: #330C0C;
+	text-align: center;
+	font-weight: 700;
+    font-size: 30px;
+    line-height: 134.5%;
+    margin-bottom: 70px;
+}
+.students__top-fut1{
+    margin-bottom: 30px;
+}
+.students__top-img{
+	padding-left: 30px;
+}
+.students__top-fut2{
+    margin-bottom: 70px;
+}
+    /*работы наших студентов*/
+    /*---------------------------------*/
+.footer{
+   background: #330C0C;
+   width: 1349px; 
+   height: 151px;
+}
+.footer__inner{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 50px;
+}
+.header__inner-logo1{
+	width: 210px;
+	padding-top: 50px;
+	margin-left: 160px;
+}
+.menu__telefon1{
+	margin-top: 50px;
+	position: relative;
+	left: 250px;
+}
+.phone1{
+	color: #fff;
+	font-size: 14px;
+	font-weight: 500;
+    line-height: 134.5%;
+    text-decoration: none;
+    padding-right: 150px;
+    margin-bottom: -50px;
+   
+}
+.top__seti2{
+	list-style: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: -100px;
+}
+.top__seti-img2{
+	margin: 0 15px ;
+}
+/*--------------------------------------------------------------*/
+/*.menu__btn{
+	display: none;
+}*/
+
+
+/*@media (max-width: 860px){
+   .menu{
+     order: 1;
+}
+.menu__list{
+	display: block;
+   position: absolute;
+   top: 100px;
+   left: 0;
+   right: 0;
+   text-align: center;
+   padding: 20px 0;
+   transform: translateY(-900px);
+}
+.menu__list-link{
+	display: block;
+	padding: 20px 0;
+	display: block;
+}
+   .menu__btn{
+   	  display: block;
+   	  cursor: pointer;
+   	  width: 35px;
+   	  height: 24px;
+   	  border: none;
+   	  border-top: 2px solid #fefefe;
+   	  border-bottom: 2px solid #fefefe;
+   	  background-color: transparent;
+   	  position: relative;
+   }
+   .menu__btn::before{
+   	  content: '';
+   	  position: absolute;
+   	  width: 35px;
+   	  height: 2px;
+   	  background-color: #fefefe;
+   	  left: 0;
+   	  top: 9px;
+   }
+}*/
